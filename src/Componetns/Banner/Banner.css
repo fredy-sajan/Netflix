@@ -1,0 +1,53 @@
+.banner{
+    width: 100%;
+    height: 600px;
+    margin-top: 60px;
+    color: white;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.banner .content{
+    padding-top: 253px;
+    height: 190px;
+    margin-left: 90px;
+}
+
+.banner .content .title .title-head{
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 1rem;
+}
+
+.banner .content .banner-buttons .button{
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 0.5rem 2rem 0.5rem;
+    background-color: rgba(51, 51, 51, 0.5);
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.banner .content .banner-buttons .button:hover{
+    color: black;
+    background-color: white;
+}
+
+.banner .content .description .description-head{
+    width: 45rem;
+    line-height: 1.3;
+    padding-top: 1rem;
+    font-size: 1.4rem;
+    height: 80px;
+    max-width: 560px;
+    font-weight: 200;
+    margin-top: 10px;
+}
+
+.banner .background-shade{
+    height: 347px;
+    background-image: linear-gradient(180deg, transparent, rgba(37, 37, 37, 0.61), #111);
+}
